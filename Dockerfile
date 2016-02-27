@@ -1,5 +1,6 @@
 #
 # OsmBase
+# Base images used by other of by images for rendering OSM maps.
 #
 
 FROM centos:7
