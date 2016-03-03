@@ -13,4 +13,4 @@ RUN echo "root:admin" | chpasswd
 RUN adduser gis
 RUN echo "gis:gis" | chpasswd
 
-RUN yum -y install git make gcc-c++ autoconf automake libtool zlib-devel bzip2-devel unzip bzip2 psmisc boost-devel && yum clean all
+RUN yum -y install bzip2 unzip bzip2 psmisc && yum clean all
